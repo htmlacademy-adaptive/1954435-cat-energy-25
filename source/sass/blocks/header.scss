@@ -1,0 +1,26 @@
+.header {
+  padding: 15px 20px 12px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  background-color: #ffffff;
+}
+
+.header__toggle {
+  width: 24px;
+  height: 16px;
+  border: none;
+}
+
+.header__popover {
+  display: none;
+  width: 320px;
+  height: 264px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.menu__content-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__content-link {
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
