@@ -320,4 +320,138 @@ body {
 .example__image {
   margin-bottom: 15px;
 }
+
+.toggle {
+  border: none;
+  background-color: transparent;
+}
+
+.toggle__label {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.address__wrapper {
+  padding: 26px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.address__title {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.address__link {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #444444;
+}
+
+.footer {
+  padding: 0 20px;
+  background: #f2f2f2;
+}
+
+.footer__logo {
+  padding: 39px 76px 32px;
+}
+
+.footer__link {
+  display: inline-block;
+}
+.footer__link:hover {
+  opacity: 0.8;
+}
+.footer__link:active {
+  opacity: 0.3;
+}
+
+.footer__socials {
+  padding: 20px 74px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.footer__logo-academy {
+  padding: 28px 20px 32px;
+}
+
+.socials__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.socials__link {
+  text-decoration: none;
+  color: #666666;
+}
+.socials__link:hover {
+  color: #68b738;
+}
+.socials__link:active {
+  color: #68b738;
+  opacity: 0.3;
+}
+
+.logo-academy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-academy__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.logo-academy__copyright {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+}
+.logo-academy__copyright:active {
+  opacity: 0.3;
+}
+
+.logo-academy__icon {
+  color: #666666;
+}
+.logo-academy__icon:hover {
+  color: #68b738;
+}
+.logo-academy__icon:active {
+  color: #68b738;
+  opacity: 0.3;
+}
 /*# sourceMappingURL=style.css.map */
