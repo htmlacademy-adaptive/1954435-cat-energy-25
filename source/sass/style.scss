@@ -18,5 +18,15 @@
 @use "blocks/footer.scss";
 @use "blocks/socials.scss";
 @use "blocks/logo-academy.scss" ;
-//catalog
-
+// catalog
+@use "blocks/catalog.scss";
+@use "blocks/card.scss";
+@use "blocks/list-description.scss";
+@use "blocks/button.scss";
+@use "blocks/pagination.scss";
+@use "blocks/catalog-add.scss";
+@use "blocks/card-add.scss";
+@use "blocks/catalog-promo.scss";
+// form
+@use "blocks/form.scss";
+@use "blocks/filter.scss";
