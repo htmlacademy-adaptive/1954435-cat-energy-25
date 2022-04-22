@@ -1,0 +1,65 @@
+.example {
+  background-color: #eaeaea;
+  padding: 25px 20px 40px 20px;
+}
+
+.example__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.example__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.example__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.example__list-value {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.example__list-key {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.example__total {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.example__image {
+  margin-bottom: 15px;
+}

@@ -1,1 +1,32 @@
 // Начните писать стили здесь
+@use "blocks/fonts.scss";
+@use "blocks/global.scss";
+@use "blocks/variables.scss";
+//
+@use "blocks/visually-hidden.scss";
+// index
+@use "blocks/header.scss";
+@use "blocks/logo.scss";
+@use "blocks/logo-main.scss";
+@use "blocks/menu.scss";
+@use "blocks/promo.scss";
+@use "blocks/programs.scss";
+@use "blocks/advantages.scss";
+@use "blocks/example.scss";
+@use "blocks/range.scss";
+@use "blocks/address.scss";
+@use "blocks/footer.scss";
+@use "blocks/socials.scss";
+@use "blocks/logo-academy.scss" ;
+// catalog
+@use "blocks/catalog.scss";
+@use "blocks/card.scss";
+@use "blocks/list-description.scss";
+@use "blocks/button.scss";
+@use "blocks/pagination.scss";
+@use "blocks/catalog-add.scss";
+@use "blocks/card-add.scss";
+@use "blocks/catalog-promo.scss";
+// form
+@use "blocks/form.scss";
+@use "blocks/filter.scss";

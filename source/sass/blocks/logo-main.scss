@@ -1,0 +1,15 @@
+.logo-main {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 101px;
+  height: 18px;
+
+  &:hover &__image {
+    opacity: 0.8;
+  }
+
+  &:focus &__image {
+    opacity: 0.6;
+  }
+}

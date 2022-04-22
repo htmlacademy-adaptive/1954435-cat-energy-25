@@ -1,0 +1,44 @@
+.programs__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.programs__item {
+  margin: 0 20px 20px;
+  padding: 21px 20px 0;
+  background: #f2f2f2;
+}
+
+.programs__item-subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 154%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.programs__item-text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.programs__wrapper-link {
+  padding: 15px 0 18px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+
+.programs__link {
+  padding: 4px 15px 4px 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.catalog-promo {
+  margin: 0 20px 35px;
+  background-color: rgba(104, 183, 56, 0.85);
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+    url("../img/catalog/catalog_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 289px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 59px 61px 0 58px;
+  box-sizing: border-box;
+
+
+  &::before {
+    content: "";
+    background-image: url("../img/catalog/icon_gift.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 79px;
+    height: 80px;
+    margin-bottom: 48px;
+  }
+}
+
+.catalog-promo__text {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 125%;
+  color: #ffffff;
+}
