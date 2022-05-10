@@ -1,9 +1,11 @@
 .footer {
   padding: 0 20px;
-  background: #f2f2f2;
+  background: $color-basic-grey;
 }
 
 .footer__logo {
+  display: flex;
+  justify-content: center;
   padding: 39px 76px 32px;
 }
 
@@ -21,10 +23,48 @@
 
 .footer__socials {
   padding: 20px 74px;
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid $color-border-grey;
+  border-bottom: 1px solid $color-border-grey;
 }
 
 .footer__logo-academy {
   padding: 28px 20px 32px;
+}
+
+@media (min-width: $tablet-width) {
+  .footer {
+    padding: 0;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 30px 55px;
+  }
+
+  .footer__logo {
+    padding: 0;
+  }
+
+  .footer__socials {
+    padding: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .footer__logo-academy {
+    padding: 0;
+  }
+
+  .logo-academy__icon {
+    margin-left: 22px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 110px 58px;
+  }
 }

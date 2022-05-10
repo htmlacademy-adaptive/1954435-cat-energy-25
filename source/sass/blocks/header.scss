@@ -1,26 +1,45 @@
 .header {
-  padding: 15px 20px 12px;
+  width: auto;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 100%;
-  background-color: #ffffff;
+  line-height: 20px;
+  background-color: $color-white;
 }
 
-.header__toggle {
-  width: 24px;
-  height: 16px;
-  border: none;
-}
-
-.header__popover {
-  display: none;
-  width: 320px;
-  height: 264px;
-}
-
-.header__wrapper {
+.header__flex-wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 10px 20px 17px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .header {
+    width: auto;
+    padding: 24px 30px 64px;
+  }
+
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .header__flex-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    background-color: transparent;
+    padding: 53px 110px 0;
+  }
+
+  .header__flex-wrapper {
+    padding: 0;
+  }
 }

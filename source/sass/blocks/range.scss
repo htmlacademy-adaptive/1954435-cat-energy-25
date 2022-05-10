@@ -1,14 +1,89 @@
-.toggle {
+.range {
+  width: 210px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.range__toggle {
   border: none;
   background-color: transparent;
 }
 
-.toggle__label {
+.toggle__toggle-label {
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 125%;
+  line-height: 20px;
   text-transform: uppercase;
-  color: #000000;
+  color: $color-black;
+}
+
+.range__toggle-slider {
+  position: relative;
+  width: 86px;
+  height: 14px;
+  background-color: $color-white;
+  border: 1px solid $color-special-grey;
+  border-radius: 6px;
+}
+
+.range__toggle-mark {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 36px;
+  height: 6px;
+  background-color: $color-basic-green;
+  border-radius: 6px;
+}
+
+@media (min-width: $tablet-width) {
+  .range {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .toggle__toggle-label {
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px dotted $color-black;
+  }
+
+  .range__scale {
+    position: relative;
+    width: 426px;
+    height: 6px;
+    background-color: $color-special-grey;
+    border-radius: 6px;
+  }
+
+  .range__toggle-wrapper {
+    position: absolute;
+    top: -15px;
+    left: 196px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .range__toggle-slider {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    background-color: $color-white;
+    border: 1px solid $color-special-grey;
+    border-radius: 50%;
+  }
+
+  .range__toggle-mark {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: $color-basic-green;
+    border-radius: 50%;
+  }
 }

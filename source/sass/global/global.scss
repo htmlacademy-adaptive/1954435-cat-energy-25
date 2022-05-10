@@ -1,0 +1,48 @@
+.html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  background-color: $color-white;
+}
+
+.page-wrapper {
+  /* margin: 0 auto;
+  min-height: 100%;
+  width: 320px;*/
+  border: 2px solid #ff0000;
+}
+
+.img {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//*tablet-width
+
+@media (min-width: $tablet-width) {
+  .body {
+    min-width: 768px;
+  }
+}
+
+//*desktop-width
+
+@media (min-width: $desktop-width) {
+  .body {
+    min-width: 1440px;
+  }
+}
