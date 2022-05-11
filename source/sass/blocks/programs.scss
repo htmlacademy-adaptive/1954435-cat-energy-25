@@ -1,3 +1,8 @@
+.programs {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
 .programs__list {
   margin: 0;
   padding: 0;
@@ -5,18 +10,23 @@
 }
 
 .programs__item {
-  margin: 0 20px 20px;
-  padding: 21px 20px 0;
-  background: #f2f2f2;
+  padding: 30px 20px 18px;
+  background: $color-basic-grey;
+}
+
+.programs__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .programs__item-subtitle {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
-  line-height: 154%;
+  line-height: 37px;
   text-transform: uppercase;
-  color: #000000;
+  color: $color-black;
+  margin: 0 0 29px 71px;
+  /*padding 7--*/
 }
 
 .programs__item-text {
@@ -26,8 +36,8 @@
 }
 
 .programs__wrapper-link {
-  padding: 15px 0 18px 0;
-  border-top: 1px solid #d9d9d9;
+  padding-top: 15px;
+  border-top: 1px solid $color-border-grey;
 }
 
 
@@ -41,4 +51,76 @@
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .programs {
+    padding: 0 30px;
+    margin-bottom: 45px;
+  }
+
+  .programs__item {
+    padding: 77px 28px 53px 52px;
+  }
+
+  .programs__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .programs__item-subtitle {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    margin: 0 0 23px;
+  }
+
+  .programs__item-text {
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 340px;
+  }
+
+  .programs__wrapper-link {
+    padding: 0;
+    border-top: none;
+  }
+
+  .programs__link {
+    padding: 4px 15px 4px 0;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .programs {
+    padding: 0 110px;
+    margin-bottom: 71px;
+  }
+
+  .programs__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .programs__item {
+    padding: 77px 51px 55px 52px;
+  }
+
+  .programs__item:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .programs__item-subtitle {
+    margin: 0 0 73px 204px;
+  }
+
+  .programs__item-text {
+    margin-bottom: 23px;
+    width: 467px;
+  }
 }
