@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   padding: 59px 61px 0 58px;
   box-sizing: border-box;
 
@@ -30,6 +30,31 @@
   margin: 0;
   text-align: center;
   font-size: 16px;
-  line-height: 125%;
-  color: #ffffff;
+  line-height: 20px;
+  color: $color-white;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-promo {
+    margin: 0 30px 76px;
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      url("../../img/catalog/catalog_background-desk.jpg");
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 57px 124px 60px 77px;
+
+    &::before {
+      content: "";
+      width: 80px;
+      height: 82px;
+    }
+  }
+
+  .catalog-promo__text {
+    text-align: left;
+    max-width: 161px;
+    padding-top: 14px;
+  }
 }

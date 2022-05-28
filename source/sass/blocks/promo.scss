@@ -35,7 +35,7 @@
 .promo__background-wrapper {
   background-color: rgba(104, 183, 56, 0.85);
   background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-    url("../../img/promo-background.jpg");
+    url("../img/promo-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 302px;
@@ -120,7 +120,7 @@
     padding-bottom: 185px;
     margin-bottom: 82px;
 
-    /*&::after {
+    &::after {
       content: "";
       position: absolute;
       z-index: -1;
@@ -128,12 +128,12 @@
       right: 0;
       left: 50%;
       top: -112px;
-      background-color: rgba(104, 183, 56, 0.85);
+      /*background-color: rgba(104, 183, 56, 0.85);*/
       background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-        url("../../img/promo-background-desktop.jpg");
+        url("../../img/promo-desktop.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-    }*/
+    }
   }
 
   .promo__background-wrapper {

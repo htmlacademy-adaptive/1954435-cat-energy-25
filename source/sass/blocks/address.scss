@@ -58,6 +58,10 @@
     text-align: right;
     padding-left: 150px;
   }
+
+  .address-wrapper-catalog {
+    background: $color-basic-grey;
+  }
 }
 
 @media (min-width: $desktop-width) {

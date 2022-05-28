@@ -5,27 +5,74 @@
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 16px;
   text-transform: uppercase;
-  color: #222222;
+  color: $color-dark-grey-2;
 }
 
 .card-add__weight {
   margin: 0;
   padding: 0;
-  line-height: 14px;
 }
 
 .card-add__price {
   margin: 0;
   padding: 0;
-  line-height: 100%;
-  text-align: right;
-  color: #444444;
 }
 
 .card-add__flex-wrapper {
   display: flex;
   justify-content: space-between;
   padding-bottom: 15px;
+  margin: 0;
+  line-height: 14px;
+  color: $color-dark-grey;
+}
+
+@media (min-width: $tablet-width) {
+  .card-add__title {
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .card-add {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 24px;
+  }
+
+  .card-add__flex-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 3px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .card-add {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .card-add__flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 7px;
+    padding-right: 38px;
+  }
+
+  .card-add__title {
+    padding-top: 10px;
+  }
 }

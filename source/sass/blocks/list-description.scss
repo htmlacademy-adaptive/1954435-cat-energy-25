@@ -1,3 +1,9 @@
+.list-description__wrapper {
+  display: flex;
+  justify-content: space-between;
+  /*max-width: 142px;*/
+}
+
 .list-description__value {
   margin: 0;
   padding: 0;
@@ -6,4 +12,11 @@
 .list-description__key {
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .list-description__wrapper {
+    border-bottom: 1px solid $color-special-grey;
+    padding: 5px 0 9px;
+  }
 }
